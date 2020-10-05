@@ -2,28 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:global_news_app/Screens/main_page.dart';
 
 void main() {
-  
-  runApp(MyApp()
-  );
+  runApp(MyApp());
 }
+
 Color cardColor1 = HexColor("de4463");
 Color cardColor2 = HexColor("654062");
 Color cardColor3 = HexColor("fca652");
-Color backgroundColor=HexColor("f6f4e6");
-
+Color backgroundColor = HexColor("e7e7de");
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'News App',
-      theme: ThemeData(       
-        primarySwatch: Colors.blue, 
-              
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home:MainPage() ,
+      home: MainPage(),
     );
   }
 }

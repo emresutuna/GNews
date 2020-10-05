@@ -69,13 +69,17 @@ class _CategoriesListWidgetState extends State<CategoriesListWidget>
                     children: [
                       CategoriesListItem(
                           image:
-                              "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"),
+                              "https://i.sozcu.com.tr/wp-content/uploads/2020/09/29/iecrop/bursa-kadin-cinayeti-foto-iha_16_9_1601388990-670x371.jpg"
+                              ,text: "Esini sokak ortasında vurdu, silahı tutukluk yapınca yakalandı",
+                              ),
                       CategoriesListItem(
                           image:
-                              "https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"),
+                              "https://im.haberturk.com/2020/09/29/ver1601387696/2818939_1200x627.jpg",
+                              text: "Son dakika! Azerbaycan-Ermenistan cephe hattında son durum!",
+                              ),
                       CategoriesListItem(
                           image:
-                              "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"),
+                              "https://iasbh.tmgrup.com.tr/556893/650/344/0/20/724/401?u=https://isbh.tmgrup.com.tr/sbh/2020/09/29/son-dakika-gelismesi-altin-fiyatlari-hareketlendi-29-eylul-sali-cumhuriyet-tam-yarim-gram-ve-ceyrek-altin-fiyatlari-ne-kadar-oldu-1601386960932.jpg",text: "Altın fiyatları hareketlendi! 29 Eylül Salı cumhuriyet, tam, yarım, gram ve çeyrek… ",),
                     ],
                   ),
                   CategoriesListItem(
