@@ -126,7 +126,7 @@ class _NewsDetailScreenState extends State<NewsDetailScreen> {
                                       Container(
                                         height:
                                             MediaQuery.of(context).size.height *
-                                                0.25,
+                                                0.28,
                                         width: 200,
                                         decoration: BoxDecoration(
                                             color: Colors.white,
